@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FURIA Esports - Home</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+        <img src="imagens\logo_furia.png" alt="Logo FURIA" />
+        <h1>Comunidade FURIA</h1>
+      </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jogos.html">Jogos</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+        <li><a href="chat.html">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>A casa da FURIA é aqui. Bem-vindo à selva!</h1>
+    
+    <section id="noticias">
+      <h2>Últimas Notícias</h2>
+      <p>Confira as últimas atualizações!</p>
+      
+      <!-- Carrossel de Notícias -->
+      <div class="carousel">
+        <div class="carousel-items">
+          <div class="carousel-item">
+            <h3>FalleN explica escolha por YEKINDAR: "Joga pra frente, tem bastante conhecimento de jogo"</h3>
+            <img src="imagens\fallen.jpg" alt="Fallen">
+            <p>"É um cara que está pensando no jogo dele e no da equipe, o que vai ser muito importante para nós. Ele é da Letônia, um dos idiomas que fala é o mesmo do molodoy, que é um jogador que acreditamos muito no seu desenvolvimento como novo AWP da FURIA, então ter alguém que fala o mesmo idioma nesse início vai ser importante para ele se sentir em um ambiente mais tranquilo e vai ajudar no nosso dia a dia."</p>
+          </div>
+          <div class="carousel-item">
+            <h3>Confirmado a adição de YEKINDAR</h3>
+            <img src="imagens\yek1ndar.jfif" alt="Yek1ndar">
+            <p>Bem-vindo à #FURIACS, 
+                @yek1ndar
+                ! 🇱🇻
+                
+                O jogador se juntará a nós como stand-in para a disputa da PGL Astana, IEM Dallas e BLAST Austin Major 2025.
+                
+                YEKINDAR is officially part of our CS2 team as a stand-in. Welcome aboard! 💪</p>
+          </div>
+          <div class="carousel-item">
+            <h3>Veja os números de skullz e YEKINDAR na última temporada completa de cada jogador</h3>
+            <img src="imagens\dados.jpeg" alt="dados">
+            <p>Ressaltando também que YEKINDAR e skullz atuaram juntos durante a metade da temporada de 2024, na Team Liquid. Ambos estavam na equipe liderada por Wilton "zews" Prado, quando ele comandou o projeto de reformulação da equipe de Counter-Strike da organização holandesa.
+
+                Na FURIA, apesar de substituir o brasileiro, o letão não herdará nenhuma das funções deixadas por ele. Com característica agressiva, a chegada de YEKINDAR impactará em mais de uma mudança tática no time comandado por Sidnei "sidde" Macedo.</p>
+          </div>
+
+        </div>
+        
+        <button class="prev" onclick="moveCarousel(-1)">&#10094;</button>
+        <button class="next" onclick="moveCarousel(1)">&#10095;</button>
+      </div>
+    
+    </section>
+
+    <!-- Seção de Highlights -->
+<section id="highlights">
+    <h2>Highlights de Partidas</h2>
+    <p>Assista aos melhores momentos dos jogos mais recentes da FURIA!</p>
+    
+    <div class="highlights-container">
+      <div class="highlight">
+        <iframe 
+          width="120%" 
+          height="500" 
+          src="https://www.youtube.com/embed/s4_12gdK3VY" 
+          title="ESSA JOGADA DO FALLEN É PRA GRAFITE?" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+        <h4>ESSA JOGADA DO FALLEN É PRA GRAFITE?</h4>
+      </div>
+      
+      <div class="highlight">
+        <iframe 
+          width="120%" 
+          height="500" 
+          src="https://www.youtube.com/embed/HmMAfNTyVXQ" 
+          title="Clutch 1v4 do KSCERATO" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+        <h4>Kscerato vs Vitality 1x3</h4>
+      </div>
+  
+      <div class="highlight">
+        <iframe 
+          width="120%" 
+          height="500" 
+          src="https://www.youtube.com/embed/qW4Q6EMjUKc" 
+          title="Melhores Jogadas - Major 2025" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+        <h4>FALLEN FEZ A MELHOR JOGADA DA IEM COLOGNE!!</h4>
+      </div>
+    </div>
+  </section>
+  
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FURIA Esports. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>

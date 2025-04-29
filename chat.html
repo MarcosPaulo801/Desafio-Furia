@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FURIA Esports - Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="imagens/logo_furia.png" alt="Logo FURIA">
+      <h1>Comunidade FURIA</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jogos.html">Jogos</a></li>
+        <li><a href="curiosidades.html">Curiosidades</a></li>
+        <li><a href="chat.html">Chat</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="chat-section">
+      <div class="chat-tabs">
+        <button class="tab-button active" data-tab="bot-chat">Chat com Bot</button>
+        <button class="tab-button" data-tab="community-chat">Chat Geral</button>
+      </div>
+      
+      <div class="chat-container">
+        <div class="chat-header">
+          <img src="imagens/logo_furia.png" alt="Logo FURIA" class="chat-logo">
+          <span>Conectado como: <strong id="username">Visitante</strong></span>
+        </div>
+        
+        <!-- Área de Mensagens -->
+        <div class="messages-area" id="botChat">
+          <!-- Chat com Bot -->
+          <div class="message bot-msg">
+            <span class="user">FURIA_BOT:</span>
+            <span class="text">Digite !ajuda para ver os comandos</span>
+          </div>
+        </div>
+        
+        <div class="messages-area hidden" id="communityChat">
+          <!-- Chat Geral (simulado) -->
+          <div class="message community-msg">
+            <span class="user">Fallen_FAN:</span>
+            <span class="text">Alguém vai pro jogo hoje?</span>
+          </div>
+        </div>
+        
+        <!-- Input -->
+        <div class="input-area">
+          <input 
+            type="text" 
+            placeholder="Digite sua mensagem..." 
+            class="message-input" 
+            id="userInput" 
+            autocomplete="off"
+          >
+          <button class="send-button" id="sendButton">Enviar</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 FURIA Esports. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
