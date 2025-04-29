@@ -1,5 +1,6 @@
-Documentação do Projeto FURIA Esports Community
+
 📌 Visão Geral
+
 Este projeto é uma plataforma web desenvolvida para a comunidade de fãs da FURIA Esports, contendo:
 ✔ Página Inicial com notícias e destaques
 ✔ Agenda de Jogos (próximos e históricos)
